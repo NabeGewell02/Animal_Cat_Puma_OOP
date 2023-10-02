@@ -3,6 +3,7 @@ import android.util.Log;
 public class Cat extends Animal {
     int age;
     String name;
+    final static int numberOfLegs = 4;
     public Cat(){
 
     }
@@ -23,4 +24,7 @@ public class Cat extends Animal {
         Log.i("talk()", "Meow! " + hello);
     }
 
+    public final static String whatCatsLike() {
+        return " I like playing, jumping and sometimes scratching";
+    }
 }

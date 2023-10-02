@@ -12,6 +12,6 @@ public class Lion extends Cat {
     }
     public void talk(){
         Log.i("talk()", "R-R-R. I'am lion. My name is " + name
-                + ", I'am " + age + " years old");
+                + ", I'am " + age + " years old." + Cat.whatCatsLike());
     }
 }
