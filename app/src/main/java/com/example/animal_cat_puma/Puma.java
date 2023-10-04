@@ -11,8 +11,5 @@ public class Puma extends Cat {
         this.age = age;
         this.name = name;
     }
-    public void talk(){
-        Log.i("talk()", "R-R-R. I'am puma. My name is " + name
-                + ", I'am " + age + " years old");
-    }
+
 }
