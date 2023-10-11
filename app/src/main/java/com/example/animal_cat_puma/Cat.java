@@ -6,10 +6,6 @@ public class Cat extends Animal {
     final static int numberOfLegs = 4;
     static int count = 0;
 
-    {
-
-    }
-
     String HelloText;
     CatMood catMood;
 
