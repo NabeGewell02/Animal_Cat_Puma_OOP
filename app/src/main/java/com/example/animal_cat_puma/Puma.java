@@ -12,4 +12,8 @@ public class Puma extends Cat {
         this.name = name;
     }
 
+    @Override
+    public void draw() {
+
+    }
 }
